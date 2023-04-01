@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 1440px;
+  /* height: 980px; */
+  margin-left: calc(50vw - 700px);
+  margin-right: calc(50vw- 700px);
+  background-color: #1e1e1e;
+}
+.center {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.footer {
+  width: 1141px;
+  height: 315px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_menu-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.footer-headline {
+  font-family: Inter;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #656566;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding-top: 55px;
+}
+
+.footer-item {
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+}
+
+.phone-number {
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+  margin-top: 20px;
+}
+
+.footer_description-text {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 15px;
+  color: #e4e5ea;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 46px;
+  padding-bottom: 90px;
+}
+
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.menu-item {
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;
+}
+
+.header_logo-text {
+  width: 165px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: Light;
+  font-size: 10px;
+  line-height: 12px;
+  color: #e4e5ea;
+}
+
+.header_social {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 480px;
+}
+
+.main_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_raight_offer-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.main_left-heading {
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: #e4e5ea;
+}
+
+.main_left-heading-grad {
+  font-family: Inter;
+  font-style: Black;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  background-image: linear-gradient(#fcb045 24.21%, #ff3f78 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.main_left-slogan {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 30px;
+  color:#E4E5EA ;
+}
+
+.main_raight_offer-text {
+  font-family: Inter;
+  font-style: Mixed;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #E4E5EA;
+  margin-bottom: 40px;
+}
+
+.gradient {
+  background-image: linear-gradient(#fcb045 24.21%, #ff3f78 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.main_raight_offer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.offer-heading{
+  Font-family: Inter;
+  Font-style: Medium;
+  Font-size: 18px;
+  Line-height: 22px;
+  color: #E4E5EA;
+  text-transform: uppercase;
+}
+
+.offer-text{
+  Font-family: Montserrat;
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 20px;
+  color: #E4E5EA;
+}
+
+.main_raight-button{
+  width: 262px;
+  height: 61px;
+  background-color: #4077F3;
+  Font-family: Inter;
+Font-style: Medium;
+Font-size: 16px;
+Line-height: 19px;
+color: #E4E5EA;
+margin-top: 61px;
+margin-bottom: 69px;
+
+}
+
+.footer_description{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 33px;
+  padding-bottom: 20px;
+
+}
+
+.footer_contacts_socials{
+  margin-bottom: 22px;
+  margin-top: 24px;
+}
+
+.footer_contacts{
+  display: flex;
+  flex-direction: column;
+align-items: flex-end;
+}
+
